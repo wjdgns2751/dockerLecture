@@ -26,6 +26,12 @@ dependencies {
 
 }
 
+bootJar{
+	archivesBaseName = 'jeong-spring'
+	archiveFileName = 'jeongspring.jar'
+	archiveVersion = "0.0.1"
+}
+
 test {
 	useJUnitPlatform()
 }
